@@ -11,7 +11,7 @@ const pushNotification = (posTop, posRight, title, description, type) => {
   div.classList.add(type);
 
   // add the coordinates
-  div.style.position = 'absolut';
+  div.style.position = 'absolute';
   div.style.top = posTop + 'px';
   div.style.right = posRight + 'px';
 
